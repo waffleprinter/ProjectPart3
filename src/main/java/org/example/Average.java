@@ -4,6 +4,7 @@ package org.example;
 import java.util.Scanner;
 
 /**
+ @author Jacques-Conrad Calagui-Painchaud 6298805
  This class contains an array of integers and its mean.
  */
 public class Average {

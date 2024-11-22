@@ -4,8 +4,7 @@ import java.util.Scanner;
 import java.io.*;
 
 /**
- This program creates a list of songs for a CD
- by reading from a file.
+ This program creates a list of songs for a CD by reading from a file.
  */
 public class CompactDisc
 {
