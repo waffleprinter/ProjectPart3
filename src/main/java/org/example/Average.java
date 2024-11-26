@@ -8,16 +8,18 @@ import java.util.Scanner;
  This class contains an array of integers and its mean.
  */
 public class Average {
-    private int[] data = new int[5];
+    private int[] data;
     private double mean;
 
     /**
      Constructor
      Asks the user for 5 integers and places them into the data array.
-     Then, it sorts the data using selection sort descending and calculates the mean.
+     Then, it sorts the data from largest to smallest using selection sort and calculates the mean.
      */
     Average() {
         Scanner scanner = new Scanner(System.in);
+
+        data = new int[5];
 
         for (int i = 0; i < data.length; i++) {
             System.out.printf("Please enter score %d: ", i + 1); // Humans start counting with 1 instead of 0
